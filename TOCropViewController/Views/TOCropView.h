@@ -110,6 +110,10 @@
  */
 @property (nonatomic, assign) BOOL gridOverlayHidden;
 
+/* The edge region that the user tapped on, to resize the cropping region */
+@property (nonatomic, assign) CGRect cropOriginFrame;
+
+@property(nonatomic) CGRect initialCropRect;
 /**
  Create a new instance of the crop view with the supplied image
  */
